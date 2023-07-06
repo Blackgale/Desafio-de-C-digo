@@ -6,7 +6,6 @@ def inverter_ordem_palavras(frase):
     frase_invertida = ' '.join(palavras_invertidas)
     return frase_invertida
 
-# Exemplo de uso:
 frase = "Hello World! OpenAI is amazing"
 frase_invertida = inverter_ordem_palavras(frase)
 print(frase_invertida)
